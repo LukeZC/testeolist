@@ -1,0 +1,17 @@
+bcp dbo.olist_customers_dataset in C:\Users\Luke\Downloads\olist_customers_dataset.csv -S lzcolistserver.database.windows.net -d olistSampleDatabase -U ******** -P ******** -q -c -t ,
+
+bcp dbo.olist_geolocation_dataset in C:\Users\Luke\Downloads\olist_geolocation_dataset.csv -S lzcolistserver.database.windows.net -d olistSampleDatabase -U ******** -P ******** -q -c -t ,
+
+bcp dbo.olist_order_items_dataset in C:\Users\Luke\Downloads\olist_order_items_dataset.csv -S lzcolistserver.database.windows.net -d olistSampleDatabase -U ******** -P ******** -q -c -t ,
+
+bcp dbo.olist_order_payments_dataset in C:\Users\Luke\Downloads\olist_order_payments_dataset.csv -S lzcolistserver.database.windows.net -d olistSampleDatabase -U ******** -P ******** -q -c -t ,
+
+bcp dbo.olist_order_reviews_dataset in C:\Users\Luke\Downloads\olist_order_reviews_dataset.csv -S lzcolistserver.database.windows.net -d olistSampleDatabase -U ******** -P ******** -q -c -t , -r ,,,,,,
+
+bcp dbo.olist_orders_dataset in C:\Users\Luke\Downloads\olist_orders_dataset.csv -S lzcolistserver.database.windows.net -d olistSampleDatabase -U ******** -P ******** -q -c -t ,
+
+bcp dbo.olist_products_dataset in C:\Users\Luke\Downloads\olist_products_dataset.csv -S lzcolistserver.database.windows.net -d olistSampleDatabase -U ******** -P ******** -q -c -t ,
+
+bcp dbo.olist_sellers_dataset in C:\Users\Luke\Downloads\olist_sellers_dataset.csv -S lzcolistserver.database.windows.net -d olistSampleDatabase -U ******** -P ******** -q -c -t ,
+
+bcp dbo.product_category_name_translation in C:\Users\Luke\Downloads\product_category_name_translation.csv -S lzcolistserver.database.windows.net -d olistSampleDatabase -U ******** -P ******** -q -c -t ,
